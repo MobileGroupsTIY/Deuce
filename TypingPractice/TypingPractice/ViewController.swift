@@ -13,6 +13,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var practiceTextfield: UITextField!
     
     @IBOutlet weak var practiceLabel: UILabel!
+   
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func fillPhrase() {
     
-        practiceLabel.text = "Sad Face"
+        practiceLabel.text = "Practice"
         
     }
 
