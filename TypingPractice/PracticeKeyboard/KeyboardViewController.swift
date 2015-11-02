@@ -8,7 +8,8 @@
 
 import UIKit
 
-class KeyboardViewController: UIInputViewController {
+class KeyboardViewController: UIInputViewController, UITextFieldDelegate {
+    
 
     @IBAction func bsButtonPressed(button: UIButton) {
     
@@ -16,6 +17,13 @@ class KeyboardViewController: UIInputViewController {
     
     }
     
+    @IBAction func runButtonPressed(button: UIButton) {
+        
+        practiceTextfield.resignFirstResponder()
+        
+        practiceTextfield.text = practiceLabel.text
+        
+    }
     
     @IBAction func touchedEmoji(button: UIButton) {
     

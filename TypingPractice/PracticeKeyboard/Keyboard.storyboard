@@ -99,13 +99,30 @@
                                     <action selector="bsButtonPressed:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="NKc-WH-9aO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7H-am-LM3">
+                                <rect key="frame" x="471" y="87" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.66099821800000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Pwv-4v-EaD"/>
+                                    <constraint firstAttribute="height" constant="50" id="aa6-Kx-ErH"/>
+                                </constraints>
+                                <state key="normal" title="Run">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="runButtonPressed:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="yqT-vw-zEC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="0.62683208771842092" blue="0.80561266447368418" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="CtI-4M-i9F" firstAttribute="top" secondItem="YHe-I6-Ugo" secondAttribute="bottom" constant="8" id="1mY-yg-xRg"/>
+                            <constraint firstItem="CtI-4M-i9F" firstAttribute="leading" secondItem="m7H-am-LM3" secondAttribute="trailing" constant="8" id="Kdv-PD-zEB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="CtI-4M-i9F" secondAttribute="trailing" constant="1" id="cfS-t3-6ke"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YHe-I6-Ugo" secondAttribute="trailing" id="e5S-pW-ZFm"/>
+                            <constraint firstItem="m7H-am-LM3" firstAttribute="top" secondItem="YHe-I6-Ugo" secondAttribute="bottom" constant="8" id="vAG-MJ-P8Y"/>
                             <constraint firstItem="YHe-I6-Ugo" firstAttribute="leading" secondItem="Tij-7h-VmU" secondAttribute="leadingMargin" id="vH4-BO-t1G"/>
                             <constraint firstItem="YHe-I6-Ugo" firstAttribute="top" secondItem="Fnd-X0-FsX" secondAttribute="bottom" constant="13" id="z3U-ig-pr3"/>
                         </constraints>

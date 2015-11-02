@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var practiceTextfield: UITextField!
     
     @IBOutlet weak var practiceLabel: UILabel!
+    
    
     
     
@@ -26,7 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func fillPhrase() {
     
-        practiceLabel.text = ""
+        practiceLabel.text = "TEXT"
         
         
     }
