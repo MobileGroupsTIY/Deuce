@@ -26,7 +26,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func fillPhrase() {
     
-        practiceLabel.text = "Practice"
+        practiceLabel.text = ""
+        
         
     }
 
