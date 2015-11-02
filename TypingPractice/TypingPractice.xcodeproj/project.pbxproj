@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370233B81BE7C29F00430163 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370233B71BE7C29F00430163 /* Keyboard.storyboard */; };
 		445CABF51BE7ACB500B6D23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445CABF41BE7ACB500B6D23C /* AppDelegate.swift */; };
 		445CABF71BE7ACB500B6D23C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445CABF61BE7ACB500B6D23C /* ViewController.swift */; };
 		445CABFA1BE7ACB500B6D23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445CABF81BE7ACB500B6D23C /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		370233B71BE7C29F00430163 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
 		445CABF11BE7ACB500B6D23C /* TypingPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445CABF41BE7ACB500B6D23C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445CABF61BE7ACB500B6D23C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				A91931681BE7AF59009423E0 /* KeyboardViewController.swift */,
 				A919316A1BE7AF59009423E0 /* Info.plist */,
+				370233B71BE7C29F00430163 /* Keyboard.storyboard */,
 			);
 			path = PracticeKeyboard;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370233B81BE7C29F00430163 /* Keyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +418,7 @@
 				A919316F1BE7AF59009423E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
