@@ -10,6 +10,16 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController {
 
+    var emoji = [
+        "😘":["In Love"],
+        "😨":["Sadened"],
+        "🍑":["Heart Butt"],
+        "🌷":["Flower Power"],
+        "🍝":["Feed Me"],
+        "🍭":["Candy Candy Candy!!!"],
+        "👌🏼":["Okay Dokay"]
+    ]
+    
     @IBOutlet var nextKeyboardButton: UIButton!
 
     override func updateViewConstraints() {
