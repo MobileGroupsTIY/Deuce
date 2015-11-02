@@ -13,7 +13,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var practiceTextfield: UITextField!
     
     @IBOutlet weak var practiceLabel: UILabel!
-    
+   
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -36,7 +37,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         
         
-        //we need to test full text field string == lavel string
+        //we need to test full text field string == label string
        
         // if true change label to the next phrase and empty text field
         

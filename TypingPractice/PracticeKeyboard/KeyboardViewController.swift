@@ -12,35 +12,29 @@ class KeyboardViewController: UIInputViewController {
 
     @IBAction func touchedEmoji(button: UIButton) {
     
-        guard let text = button.titleLabel?.text else {
-            
-            return }
+        guard let text = button.titleLabel?.text else { return }
         
-        switch text {
-        
-        case "😘" : textDocumentProxy.insertText("In Love")
-        
-        case "😨" : textDocumentProxy.insertText("Sadened")
-            
-        case "🍑" : textDocumentProxy.insertText("Heart Butt")
-            
-        case "🌷" : textDocumentProxy.insertText("Flower Power")
-            
-        case "🍝" : textDocumentProxy.insertText("Feed Me")
-            
-        case "🍭" : textDocumentProxy.insertText("Candy Candy Candy!!!")
-            
-        case "👌🏼" : textDocumentProxy.insertText("Okay Dokay")
-            
-       
-            
-//        textDocumentProxy.insertText("In Love")
-        
-        default : print("Blah")
-            
-        }
+        textDocumentProxy.insertText(emojis["\(text)"]!)
     
     }
+    
+    let emojis: [String:String] = [
+        
+        "😘" : "In Love",
+        
+        "😨" : "Sadened",
+        
+        "🍑" : "Heart Butt",
+        
+        "🌷" : "Flower Power",
+        
+        "🍝" : "Feed Me",
+        
+        "🍭" : "Candy Candy Candy!!!",
+        
+        "👌🏼" : "Okay Dokay"
+    ]
+
     
     @IBOutlet var nextKeyboardButton: UIButton!
 
