@@ -10,29 +10,55 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController {
 
+    @IBAction func bsButtonPressed(button: UIButton) {
+    
+        textDocumentProxy.deleteBackward()
+    
+    }
+    
+    
     @IBAction func touchedEmoji(button: UIButton) {
     
         guard let text = button.titleLabel?.text else { return }
         
         textDocumentProxy.insertText(emojis["\(text)"]!)
     
+//        switch text {
+//            
+//        case "😘" : textDocumentProxy.insertText("In Love")
+//            
+//        case "😨": textDocumentProxy.insertText("Sadened")
+//            
+//        case"🍑" : textDocumentProxy.insertText("Heart Butt")
+//            
+//        case "🌷" : textDocumentProxy.insertText("Flower Power")
+//            
+//        case "🍝" : textDocumentProxy.insertText("Feed Me")
+//            
+//        case "🍭" : textDocumentProxy.insertText("Candy Candy Candy!!!")
+//            
+//        case "👌🏼" : textDocumentProxy.insertText("Okay Dokay")
+//            
+//        default : print("Blah")
+//            
+//        }
     }
     
     let emojis: [String:String] = [
         
-        "😘" : "In Love",
+        "😘" : "In Love ",
         
-        "😨" : "Sadened",
+        "😨" : "Sadened ",
         
-        "🍑" : "Heart Butt",
+        "🍑" : "Heart Butt ",
         
-        "🌷" : "Flower Power",
+        "🌷" : "Flower Power ",
         
-        "🍝" : "Feed Me",
+        "🍝" : "Feed Me ",
         
-        "🍭" : "Candy Candy Candy!!!",
+        "🍭" : "Candy Candy Candy!!! ",
         
-        "👌🏼" : "Okay Dokay"
+        "👌🏼" : "Okay Dokay "
     ]
 
     
@@ -95,5 +121,6 @@ class KeyboardViewController: UIInputViewController {
         
         self.nextKeyboardButton.setTitleColor(textColor, forState: .Normal)
     }
-
+   
+   
 }
