@@ -21,60 +21,60 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YHe-I6-Ugo">
                                 <rect key="frame" x="20" y="33" width="560" height="46"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJf-ZR-jIh">
-                                        <rect key="frame" x="8" y="8" width="77.5" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJf-ZR-jIh">
+                                        <rect key="frame" x="8" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="😘"/>
                                         <connections>
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="hZ0-eh-Rqe"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbd-a5-eyq">
-                                        <rect key="frame" x="85" y="8" width="78" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbd-a5-eyq">
+                                        <rect key="frame" x="86" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="😨"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="Da5-QK-70U"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-Ew-Ni6">
+                                        <rect key="frame" x="164" y="8" width="78" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="🍝"/>
                                         <connections>
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="wnN-uE-XqX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-oI-bff">
-                                        <rect key="frame" x="163" y="8" width="77.5" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-oI-bff">
+                                        <rect key="frame" x="241" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🍑"/>
                                         <connections>
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="pRv-EO-P6M"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Lsn">
-                                        <rect key="frame" x="241" y="8" width="78" height="30"/>
-                                        <animations/>
-                                        <state key="normal" title="🌷"/>
-                                        <connections>
-                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="l06-1o-aJ6"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-Ew-Ni5">
-                                        <rect key="frame" x="319" y="8" width="77.5" height="30"/>
-                                        <animations/>
-                                        <state key="normal" title="🍝"/>
-                                        <connections>
-                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="URi-9f-Ob5"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUW-dN-8nz">
-                                        <rect key="frame" x="396" y="8" width="78" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Lsn">
+                                        <rect key="frame" x="319" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🍭"/>
                                         <connections>
-                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="Ggo-N6-eH4"/>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="lXa-bO-8Qa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6z0-k8-fIm">
-                                        <rect key="frame" x="474" y="8" width="77.5" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Ls2">
+                                        <rect key="frame" x="397" y="8" width="78" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="🌷"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="vjj-bl-FdI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6z0-k8-fI2">
+                                        <rect key="frame" x="475" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="👌🏼"/>
                                         <connections>
-                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="hNc-f9-iL6"/>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="l06-1o-aJ6"/>
                                         </connections>
                                     </button>
                                 </subviews>

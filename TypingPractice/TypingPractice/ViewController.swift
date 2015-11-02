@@ -14,7 +14,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var practiceLabel: UILabel!
     
-   
     
     
     override func viewDidLoad() {
@@ -22,6 +21,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
        
         fillPhrase()
+        
+        practiceTextfield.delegate = self
     
     }
     
@@ -49,6 +50,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     func textFieldShouldReturn(textField: UITextField) -> Bool {
      
+        print("boom")
+        
+        practiceTextfield.resignFirstResponder()
+        
+        practiceLabel.text = practiceTextfield.text
+
+        practiceTextfield.text = ""
+        
         return true
     }
 
