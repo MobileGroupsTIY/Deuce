@@ -18,9 +18,23 @@ class KeyboardViewController: UIInputViewController {
         
         switch text {
         
-        case "😘" :
+        case "😘" : textDocumentProxy.insertText("In Love")
+        
+        case "😨" : textDocumentProxy.insertText("Sadened")
             
-        textDocumentProxy.insertText("In Love")
+        case "🍑" : textDocumentProxy.insertText("Heart Butt")
+            
+        case "🌷" : textDocumentProxy.insertText("Flower Power")
+            
+        case "🍝" : textDocumentProxy.insertText("Feed Me")
+            
+        case "🍭" : textDocumentProxy.insertText("Candy Candy Candy!!!")
+            
+        case "👌🏼" : textDocumentProxy.insertText("Okay Dokay")
+            
+       
+            
+//        textDocumentProxy.insertText("In Love")
         
         default : print("Blah")
             

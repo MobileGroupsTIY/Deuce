@@ -22,7 +22,7 @@
                                 <rect key="frame" x="20" y="33" width="560" height="46"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJf-ZR-jIh">
-                                        <rect key="frame" x="8" y="8" width="77.5" height="30"/>
+                                        <rect key="frame" x="8" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="😘"/>
                                         <connections>
@@ -30,34 +30,52 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbd-a5-eyq">
-                                        <rect key="frame" x="85.5" y="8" width="78" height="30"/>
+                                        <rect key="frame" x="86" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="😨"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-Ew-Ni5">
-                                        <rect key="frame" x="163.5" y="8" width="77.5" height="30"/>
-                                        <animations/>
-                                        <state key="normal" title="🍝"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUW-dN-8nz">
-                                        <rect key="frame" x="241" y="8" width="78" height="30"/>
-                                        <animations/>
-                                        <state key="normal" title="🍭"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="wnN-uE-XqX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-oI-bff">
-                                        <rect key="frame" x="319" y="8" width="77.5" height="30"/>
+                                        <rect key="frame" x="164" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🍑"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="pRv-EO-P6M"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Lsn">
-                                        <rect key="frame" x="396.5" y="8" width="78" height="30"/>
+                                        <rect key="frame" x="241" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🌷"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="l06-1o-aJ6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-Ew-Ni5">
+                                        <rect key="frame" x="319" y="8" width="78" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="🍝"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="URi-9f-Ob5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUW-dN-8nz">
+                                        <rect key="frame" x="397" y="8" width="78" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="🍭"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="Ggo-N6-eH4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6z0-k8-fIm">
-                                        <rect key="frame" x="474.5" y="8" width="77.5" height="30"/>
+                                        <rect key="frame" x="475" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="👌🏼"/>
+                                        <connections>
+                                            <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="hNc-f9-iL6"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <animations/>
@@ -66,57 +84,10 @@
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Mjf-DI-wbF">
-                                <rect key="frame" x="20" y="100" width="560" height="46"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bo-Zs-WeD">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="46"/>
-                                        <animations/>
-                                        <state key="normal" title="🆙"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ci9-MR-UfP">
-                                        <rect key="frame" x="80" y="0.0" width="80" height="46"/>
-                                        <animations/>
-                                        <state key="normal" title="🔞"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T16-bj-j4Q">
-                                        <rect key="frame" x="160" y="0.0" width="80" height="46"/>
-                                        <animations/>
-                                        <state key="normal" title="👛"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cau-BD-J8j">
-                                        <rect key="frame" x="240" y="0.0" width="80" height="46"/>
-                                        <animations/>
-                                        <state key="normal" title="💊"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7f-Wc-0sa">
-                                        <rect key="frame" x="320" y="0.0" width="80" height="46"/>
-                                        <animations/>
-                                        <state key="normal" title="👙"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFy-pn-6hv">
-                                        <rect key="frame" x="400" y="0.0" width="80" height="46"/>
-                                        <animations/>
-                                        <state key="normal" title="📀"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57L-lA-eZ8">
-                                        <rect key="frame" x="480" y="0.0" width="80" height="46"/>
-                                        <animations/>
-                                        <state key="normal" title="🍘"/>
-                                    </button>
-                                </subviews>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="81C-bZ-hW1"/>
-                                </constraints>
-                            </stackView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.0" green="0.62683208771842092" blue="0.80561266447368418" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Mjf-DI-wbF" firstAttribute="top" secondItem="YHe-I6-Ugo" secondAttribute="bottom" constant="21" id="BbC-e3-NOc"/>
-                            <constraint firstItem="Mjf-DI-wbF" firstAttribute="leading" secondItem="Tij-7h-VmU" secondAttribute="leadingMargin" id="Tb5-Xi-uyW"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Mjf-DI-wbF" secondAttribute="trailing" id="cyV-CV-JnD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YHe-I6-Ugo" secondAttribute="trailing" id="e5S-pW-ZFm"/>
                             <constraint firstItem="YHe-I6-Ugo" firstAttribute="leading" secondItem="Tij-7h-VmU" secondAttribute="leadingMargin" id="vH4-BO-t1G"/>
                             <constraint firstItem="YHe-I6-Ugo" firstAttribute="top" secondItem="Fnd-X0-FsX" secondAttribute="bottom" constant="13" id="z3U-ig-pr3"/>
