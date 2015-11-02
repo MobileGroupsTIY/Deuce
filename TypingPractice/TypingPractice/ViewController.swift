@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var practiceTextfield: UITextField!
     @IBOutlet weak var practiceLabel: UILabel!
@@ -22,6 +22,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> true {
+        
+    }
 
+    func textFieldShouldReturn(textField: UITextField) -> true {
+        
+    }
+
+    
 }
 
