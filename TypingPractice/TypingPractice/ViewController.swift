@@ -11,10 +11,21 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var practiceTextfield: UITextField!
+    
     @IBOutlet weak var practiceLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       
+        fillPhrase()
+    
+    }
+    
+    func fillPhrase() {
+    
+        practiceLabel.text = "Sad Face"
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +34,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        
+        
+        //we need to test full text field string == lavel string
+       
+        // if true change label to the next phrase and empty text field
         
         return true
     }
