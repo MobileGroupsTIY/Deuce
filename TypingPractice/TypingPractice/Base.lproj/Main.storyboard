@@ -23,15 +23,31 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DT-dP-Rep">
+                                <rect key="frame" x="20" y="67" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gM8-fx-23U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="dkE-3M-HZt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="129-4t-VO6"/>
                             <constraint firstAttribute="trailing" secondItem="dkE-3M-HZt" secondAttribute="trailing" constant="20" id="JHP-7w-KMV"/>
+                            <constraint firstItem="5DT-dP-Rep" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="XOB-02-vLf"/>
+                            <constraint firstItem="5DT-dP-Rep" firstAttribute="top" secondItem="dkE-3M-HZt" secondAttribute="bottom" constant="17" id="bxD-AZ-19h"/>
                             <constraint firstItem="dkE-3M-HZt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iVu-NX-aPa"/>
+                            <constraint firstAttribute="trailing" secondItem="5DT-dP-Rep" secondAttribute="trailing" constant="20" id="j4K-l5-Wmi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="practiceLabel" destination="5DT-dP-Rep" id="NSH-3A-WEZ"/>
+                        <outlet property="practiceTextfield" destination="dkE-3M-HZt" id="Nkf-6l-Bka"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
