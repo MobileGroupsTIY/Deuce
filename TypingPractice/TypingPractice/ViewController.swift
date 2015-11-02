@@ -20,12 +20,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> true {
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         
+        return true
     }
 
-    func textFieldShouldReturn(textField: UITextField) -> true {
-        
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+     
+        return true
     }
 
     
