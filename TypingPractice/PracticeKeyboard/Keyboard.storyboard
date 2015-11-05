@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YHe-I6-Ugo">
                                 <rect key="frame" x="20" y="33" width="560" height="46"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJf-ZR-jIh">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJf-ZR-jIh">
                                         <rect key="frame" x="8" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="😘"/>
@@ -29,7 +29,7 @@
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="hZ0-eh-Rqe"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbd-a5-eyq">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbd-a5-eyq">
                                         <rect key="frame" x="86" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="😨"/>
@@ -37,7 +37,7 @@
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="Da5-QK-70U"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-Ew-Ni6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-Ew-Ni6">
                                         <rect key="frame" x="164" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🍝"/>
@@ -45,7 +45,7 @@
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="wnN-uE-XqX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-oI-bff">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-oI-bff">
                                         <rect key="frame" x="241" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🍑"/>
@@ -53,7 +53,7 @@
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="pRv-EO-P6M"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Lsn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Lsn">
                                         <rect key="frame" x="319" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🍭"/>
@@ -61,7 +61,7 @@
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="lXa-bO-8Qa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Ls2">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7p-jc-Ls2">
                                         <rect key="frame" x="397" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="🌷"/>
@@ -69,7 +69,7 @@
                                             <action selector="touchedEmoji:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="vjj-bl-FdI"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6z0-k8-fI2">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6z0-k8-fI2">
                                         <rect key="frame" x="475" y="8" width="78" height="30"/>
                                         <animations/>
                                         <state key="normal" title="👌🏼"/>
@@ -79,30 +79,62 @@
                                     </button>
                                 </subviews>
                                 <animations/>
+                                <color key="backgroundColor" red="0.87450980389999999" green="0.78823529410000004" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="86y-uR-QxV"/>
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtI-4M-i9F">
-                                <rect key="frame" x="529" y="87" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkO-5J-Br4" customClass="BigButtons" customModule="PracticeKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="530" y="87" width="50" height="50"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0187217119" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8t6-HU-D7d"/>
+                                    <constraint firstAttribute="width" constant="50" id="BEs-iT-TG3"/>
+                                </constraints>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clearButtonPressed:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="aCu-M6-Czk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtI-4M-i9F" customClass="BigButtons" customModule="PracticeKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="472" y="87" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.96165974149328948" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="OsZ-fl-lUR"/>
                                     <constraint firstAttribute="width" constant="50" id="lWi-uB-nbU"/>
                                 </constraints>
-                                <state key="normal" title="BS">
+                                <state key="normal" title="&lt;-">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="bsButtonPressed:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="NKc-WH-9aO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7H-am-LM3">
-                                <rect key="frame" x="471" y="87" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7H-am-LM3" customClass="BigButtons" customModule="PracticeKeyboard" customModuleProvider="target">
+                                <rect key="frame" x="414" y="87" width="50" height="50"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.66099821800000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.05337949843960077" green="1" blue="0.00033646567800915683" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="Pwv-4v-EaD"/>
                                     <constraint firstAttribute="height" constant="50" id="aa6-Kx-ErH"/>
@@ -110,6 +142,14 @@
                                 <state key="normal" title="Run">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="runButtonPressed:" destination="RMd-Wf-rMw" eventType="touchUpInside" id="yqT-vw-zEC"/>
                                 </connections>
@@ -119,9 +159,13 @@
                         <color key="backgroundColor" red="0.0" green="0.62683208771842092" blue="0.80561266447368418" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="CtI-4M-i9F" firstAttribute="top" secondItem="YHe-I6-Ugo" secondAttribute="bottom" constant="8" id="1mY-yg-xRg"/>
+                            <constraint firstItem="rkO-5J-Br4" firstAttribute="leading" secondItem="CtI-4M-i9F" secondAttribute="trailing" constant="8" id="HVa-7Z-r0i"/>
                             <constraint firstItem="CtI-4M-i9F" firstAttribute="leading" secondItem="m7H-am-LM3" secondAttribute="trailing" constant="8" id="Kdv-PD-zEB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CtI-4M-i9F" secondAttribute="trailing" constant="1" id="cfS-t3-6ke"/>
+                            <constraint firstItem="rkO-5J-Br4" firstAttribute="top" secondItem="YHe-I6-Ugo" secondAttribute="bottom" constant="8" id="QVg-gA-caY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CtI-4M-i9F" secondAttribute="trailing" constant="58" id="cfS-t3-6ke"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YHe-I6-Ugo" secondAttribute="trailing" id="e5S-pW-ZFm"/>
+                            <constraint firstItem="rkO-5J-Br4" firstAttribute="leading" secondItem="CtI-4M-i9F" secondAttribute="trailing" constant="8" id="glY-N9-vdm"/>
+                            <constraint firstItem="rkO-5J-Br4" firstAttribute="top" secondItem="YHe-I6-Ugo" secondAttribute="bottom" constant="8" id="jIf-4l-1AU"/>
                             <constraint firstItem="m7H-am-LM3" firstAttribute="top" secondItem="YHe-I6-Ugo" secondAttribute="bottom" constant="8" id="vAG-MJ-P8Y"/>
                             <constraint firstItem="YHe-I6-Ugo" firstAttribute="leading" secondItem="Tij-7h-VmU" secondAttribute="leadingMargin" id="vH4-BO-t1G"/>
                             <constraint firstItem="YHe-I6-Ugo" firstAttribute="top" secondItem="Fnd-X0-FsX" secondAttribute="bottom" constant="13" id="z3U-ig-pr3"/>

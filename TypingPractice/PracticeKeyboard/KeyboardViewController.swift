@@ -10,7 +10,7 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController, UITextFieldDelegate {
     
-    let emojis: [String:String] = [
+    let emojis: [String : String] = [
         
         "😘" : "In Love ",
         
@@ -41,6 +41,17 @@ class KeyboardViewController: UIInputViewController, UITextFieldDelegate {
         textDocumentProxy.deleteBackward()
         
     }
+    
+    
+    @IBAction func clearButtonPressed(button: UIButton) {
+   
+        func textFieldShouldClear(practiceTextfield) -> Bool {
+            
+            return true;
+        }
+        
+    }
+    
     
     @IBAction func touchedEmoji(button: UIButton) {
         

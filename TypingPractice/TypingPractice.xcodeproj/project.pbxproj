@@ -13,6 +13,7 @@
 		445CABFA1BE7ACB500B6D23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445CABF81BE7ACB500B6D23C /* Main.storyboard */; };
 		445CABFC1BE7ACB500B6D23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445CABFB1BE7ACB500B6D23C /* Assets.xcassets */; };
 		445CABFF1BE7ACB500B6D23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445CABFD1BE7ACB500B6D23C /* LaunchScreen.storyboard */; };
+		44F5A4D91BE8580300EE5123 /* BigButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5A4D81BE8580300EE5123 /* BigButtons.swift */; };
 		A91931691BE7AF59009423E0 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91931681BE7AF59009423E0 /* KeyboardViewController.swift */; };
 		A919316D1BE7AF59009423E0 /* PracticeKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A91931661BE7AF59009423E0 /* PracticeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		445CABFB1BE7ACB500B6D23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		445CABFE1BE7ACB500B6D23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		445CAC001BE7ACB500B6D23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F5A4D81BE8580300EE5123 /* BigButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigButtons.swift; sourceTree = "<group>"; };
 		A91931661BE7AF59009423E0 /* PracticeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PracticeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91931681BE7AF59009423E0 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		A919316A1BE7AF59009423E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				A91931681BE7AF59009423E0 /* KeyboardViewController.swift */,
 				A919316A1BE7AF59009423E0 /* Info.plist */,
 				370233B71BE7C29F00430163 /* Keyboard.storyboard */,
+				44F5A4D81BE8580300EE5123 /* BigButtons.swift */,
 			);
 			path = PracticeKeyboard;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 					};
 					A91931651BE7AF59009423E0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HVSGYG26E4;
 					};
 				};
 			};
@@ -225,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F5A4D91BE8580300EE5123 /* BigButtons.swift in Sources */,
 				A91931691BE7AF59009423E0 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,10 +375,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PracticeKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvagner.TypingPractice.PracticeKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -382,10 +389,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PracticeKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulvagner.TypingPractice.PracticeKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
